@@ -1,0 +1,130 @@
+.social-top {
+    margin: 20px 0;
+}
+
+.social-top a {
+    color: #f1f1f1;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-top a:hover {
+    color:#e05a00;
+}
+
+/*fin del header */
+
+.nav-link:hover {
+    color: #fff;
+    outline: 0;
+    transition: background-color 2s ease-out;
+    border-bottom: 4px solid #e05a00;
+
+} 
+
+h1, h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+}
+h3, h4, h5, h6 {
+    font-family: 'Heebo', sans-serif;
+    margin: 5px;
+}
+.barra{
+    background-image: url(menu.jpg);
+    background-size: cover;
+    color:white;
+    margin-top: 20px;
+    padding: 20px;
+}
+nav li{
+    color:white;
+    font-family: verdana;
+}
+.barra2{
+    background-image: url(menu.jpg);
+    color:white;
+    margin-top: 20px;
+    padding: 20px;
+}
+.barra3{
+    background-image: url(menu5.jpg);
+    color:white;
+    margin-left: 0px;
+}
+.recuadro1 {
+    background-image:url(port4.jpg);
+    background-size: cover;
+    opacity:0.3 blue;
+    color:#fff;
+    font-size:30px;
+    font-style: italic;
+}
+
+.space {
+    margin-right: 20px;
+}
+
+/*footer*/
+footer {
+    background: #e05a00;
+    padding: 90px 0;
+}
+
+.footer-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 180px;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    color: #f1f1f1;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-media a:hover {
+    color:black;
+}
+
+.right-col {
+    font-size: 15px;
+}
+
+.border {
+    width: 200px;
+    height: 4px;
+    background: rgb(3, 3, 134);
+    border: 1px solid rgb(3, 3, 134);
+}
+
+.right-text {
+    color:white;
+}
+
+@media screen and (max-width:960px) {
+    .footer-container {
+        max-width: 600px;
+    }
+    .left-col {
+        width: 100%;
+        text-align: center;
+    }
+}
